@@ -11,8 +11,7 @@ public class MinedBox
     extends Box {
 
     /** @see com.vvoyer.demineur.core.Box#Box(List, BoxState)  */
-    public MinedBox(List<Box> neighbors, BoxState state)
-            throws NullPointerException, IllegalArgumentException { super(neighbors, state); }
+    public MinedBox(List<Box> neighbors, BoxState state) { super(neighbors, state); }
 
     @Override
     public void unveil() throws DiscoveredException { throw new DiscoveredException(); }

@@ -1,6 +1,5 @@
 package com.vvoyer.demineur.core;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
@@ -13,16 +12,14 @@ public abstract class Box
     /**
      * Create a Box.
      * @param neighbors Box neighbors.
-     * @throws NullPointerException if neighbors was null.
-     * @throws IllegalArgumentException if number of neighbors is not correct.
      */
-    public Box(List<Box> neighbors, BoxState state) throws NullPointerException, IllegalArgumentException {
+    public Box(List<Box> neighbors, BoxState state) {
         super(neighbors);
         this.state = Optional.of(state).get();
     }
 
     /** @return Box neighbors. */
-    public List<? extends Box> getNeighbors() { return content(); }
+    public List<Box> getNeighbors() { return content(); }
 
     /** @return Marked box. */
     public void mark() { state = state.mark(); }

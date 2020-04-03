@@ -9,15 +9,13 @@ public class Board
     /**
      * Initialize board.
      * @param boxes box list.
-     * @throws NullPointerException throw if list was null.
-     * @throws IllegalArgumentException throw if list is empty.
      */
-    public Board(List<Box> boxes) throws NullPointerException, IllegalArgumentException {
+    public Board(List<Box> boxes)  {
         super(boxes);
         if (this.elements.isEmpty()) { throw new IllegalArgumentException(); }
     }
 
-    /** @param box  */
+    /** @param box to mark. */
     public void mark(Box box) {
         Optional<Box> toUpdateBox = first((Box b)->b.equals(box));
         if (toUpdateBox.isPresent()) {
@@ -25,7 +23,7 @@ public class Board
         }
     }
 
-    /** @param box  */
+    /** @param box to unmark. */
     public void unmark(Box box) {
         Optional<Box> toUpdateBox = first((Box b)->b.equals(box));
         if (toUpdateBox.isPresent()) {
@@ -33,7 +31,7 @@ public class Board
         }
     }
 
-    /** @param box  */
+    /** @param box to unveil */
     public void unveil(Box box) throws DiscoveredException {
         Optional<Box> toUpdateBox = first((Box b)->b.equals(box));
         if (toUpdateBox.isPresent()) {

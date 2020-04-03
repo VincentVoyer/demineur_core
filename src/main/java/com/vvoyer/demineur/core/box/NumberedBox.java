@@ -13,8 +13,7 @@ public class NumberedBox
     public final int minedNeighbors;
 
     /** @see com.vvoyer.demineur.core.Box#Box(List, BoxState)  */
-    public NumberedBox(List<Box> neighbors, BoxState state)
-            throws NullPointerException, IllegalArgumentException {
+    public NumberedBox(List<Box> neighbors, BoxState state) {
         super(neighbors, state);
         minedNeighbors = count((Box box)->box instanceof MinedBox);
     }
