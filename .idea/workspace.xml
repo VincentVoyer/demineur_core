@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a96d466-afee-421f-99e1-b7567350bd27" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vvoyer/demineur/core/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vvoyer/demineur/core/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vvoyer/demineur/core/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vvoyer/demineur/core/Box.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vvoyer/demineur/core/BoxState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vvoyer/demineur/core/BoxState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vvoyer/demineur/core/box/EmptyBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vvoyer/demineur/core/box/EmptyBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vvoyer/demineur/core/box/MinedBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vvoyer/demineur/core/box/MinedBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vvoyer/demineur/core/box/NumberedBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vvoyer/demineur/core/box/NumberedBox.java" afterDir="false" />
-    </list>
+    <list default="true" id="2a96d466-afee-421f-99e1-b7567350bd27" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +28,13 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/VincentVoyer/demineur_core.git" />
+      </set>
+    </option>
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="scf600uj" />
@@ -149,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585931202352</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="refactor - clean code&#10;remove useless dependencies&#10;remove useless throws&#10;remove wildcard on return types">
+      <created>1585934114877</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1585934114877</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -158,7 +163,9 @@
     <MESSAGE value="feat - change pom" />
     <MESSAGE value="feat - change java compile version" />
     <MESSAGE value="hotfix - pom" />
-    <option name="LAST_COMMIT_MESSAGE" value="hotfix - pom" />
+    <MESSAGE value="refactor - clean code&#10;remove useless dependencies&#10;remove useless throws&#10;remove wildcard on return types" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor - clean code&#10;remove useless dependencies&#10;remove useless throws&#10;remove wildcard on return types" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2472" y="178" key="#Project_Structure" timestamp="1585932081428">
@@ -200,6 +207,10 @@
     </state>
     <state x="614" y="114" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585930686666" />
     <state x="2866" y="0" width="974" height="1040" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585932332110" />
+    <state x="2012" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1585934419535">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2012" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585934419535" />
     <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1585931989595">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -239,6 +250,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="731" y="238" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585759382633" />
+    <state x="2581" y="311" key="git4idea.merge.GitPullDialog" timestamp="1585934351636">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2581" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585934351636" />
     <state x="2536" y="240" width="672" height="677" key="run.anything.popup" timestamp="1585932294884">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
