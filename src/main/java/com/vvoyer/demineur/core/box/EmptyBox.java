@@ -11,8 +11,7 @@ public class EmptyBox
     extends Box {
 
     /** @see com.vvoyer.demineur.core.Box#Box(List, BoxState)  */
-    public EmptyBox(List<Box> neighbors, BoxState state)
-            throws NullPointerException, IllegalArgumentException { super(neighbors, state); }
+    public EmptyBox(List<Box> neighbors, BoxState state) { super(neighbors, state); }
 
     @Override
     public void unveil() throws DiscoveredException {

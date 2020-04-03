@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a96d466-afee-421f-99e1-b7567350bd27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vvoyer/demineur/core/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vvoyer/demineur/core/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vvoyer/demineur/core/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vvoyer/demineur/core/Box.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vvoyer/demineur/core/BoxState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vvoyer/demineur/core/BoxState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vvoyer/demineur/core/box/EmptyBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vvoyer/demineur/core/box/EmptyBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vvoyer/demineur/core/box/MinedBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vvoyer/demineur/core/box/MinedBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vvoyer/demineur/core/box/NumberedBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vvoyer/demineur/core/box/NumberedBox.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +33,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="circleci-project-setup" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />

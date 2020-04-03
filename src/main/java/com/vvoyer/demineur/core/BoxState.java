@@ -4,17 +4,17 @@ package com.vvoyer.demineur.core;
 public interface BoxState {
 
     /**
-     * @return
+     * @return Marked Box state.
      */
     BoxState mark();
 
     /**
-     * @return
+     * @return Unmarked box state.
      */
     BoxState unmark();
 
     /**
-     * @return
+     * @return Discovered box state.
      */
     BoxState discover();
 }
